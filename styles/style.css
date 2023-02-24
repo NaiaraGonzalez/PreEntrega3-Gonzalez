@@ -191,6 +191,15 @@ h3 {
   border-style: solid;
   text-align: center;
 }
+.parque {
+  width: 50rem;
+}
+.bar {
+  width: 25rem;
+}
+.cine {
+  width: 30rem;
+}
 /* TERMINA ENTORNO */
 
 /* EMPIEZA CONSULTAS FRECUENTES */
