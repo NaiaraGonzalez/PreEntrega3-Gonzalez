@@ -46,37 +46,41 @@ crossorigin="anonymous"
         </div>
         <main>
             <section>
-                <div class="row">
+                <div class="container d-inline-block col-sm-4 col-md-6 col-lg-12">
                     <img src="../img/habitacion1.jpeg" alt="Habitacion matrimonial">
                     <img src="../img/habitacion3.jpeg" alt="Habitacion para dos personas">
                 </div>
             </section>
-            <section>
-                <div class="imagenCentrada">
-                    <img src="../img/habitacion2.jpeg" alt="Habitacion para dos personas">
+            <section >
+                <div class="d-inline-block" >
+                    <div class="imagenCentrada col-md-4">
+                        <img src="../img/habitacion2.jpeg" alt="Habitacion para dos personas">
+                    </div>
+    
+                <p class="parrafo2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus reiciendis ipsa quaerat aperiam recusandae reprehenderit?
+                </p>
+                <form class="habitaciones">
+                    <p>Tipos de habitaciones disponibles</p>
+                    <select name="Tipos de habitaciones disponibles">
+                        <option value="Para una persona"> Para una persona</option>
+                        <option value="Para dos personas"> Para dos personas</option>
+                        <option value="Para tres personas"> Para tres personas</option>
+                    </select>
+                    <p>Camas disponibles</p>
+                    <select name="Camas disponibles" >
+                        <option value="Cama de una plaza"> Cama de una plaza</option>
+                        <option value="Cama de dos plazas"> Camas de dos plazas</option>
+                        <option value="Ambas opciones"> Ambas opciones</option>
+                    </select>
+                    <div>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Borrar">
+                    </div>
+                </form>
                 </div>
-            </section>
-            <p class="parrafo2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus reiciendis ipsa quaerat aperiam recusandae reprehenderit?
-            </p>
-            <form class="habitaciones">
-                <p>Tipos de habitaciones disponibles</p>
-                <select name="Tipos de habitaciones disponibles">
-                    <option value="Para una persona"> Para una persona</option>
-                    <option value="Para dos personas"> Para dos personas</option>
-                    <option value="Para tres personas"> Para tres personas</option>
-                </select>
-                <p>Camas disponibles</p>
-                <select name="Camas disponibles" >
-                    <option value="Cama de una plaza"> Cama de una plaza</option>
-                    <option value="Cama de dos plazas"> Camas de dos plazas</option>
-                    <option value="Ambas opciones"> Ambas opciones</option>
-                </select>
-                <div>
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Borrar">
-                </div>
-            </form>
+               
+        </section>
         </main>
         <footer class="footer">
             <h4>COMUNICATE CON NOSOTROS</h4>
