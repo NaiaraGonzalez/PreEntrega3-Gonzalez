@@ -123,10 +123,12 @@ h3 {
   text-align: left;
   align-content: left;
   width: 20rem;
+  margin-top: 2rem;
 }
 .habitaciones {
   align-content: right;
   text-align: center;
+  margin-top: 2rem;
 }
 
 /* TERMINAN HABITACIONES */
@@ -155,16 +157,12 @@ h3 {
   text-align: center;
 }
 .parque {
-  width: 50rem;
   align-self: center;
 }
 .bar {
-  width: 40rem;
-  height: 50rem;
   align-self: center;
 }
 .cine {
-  width: 30rem;
   align-self: center;
 }
 /* TERMINA ENTORNO */
