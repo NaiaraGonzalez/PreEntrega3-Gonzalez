@@ -13,6 +13,19 @@ body {
 
     h1 {
       color: $color-h1;
+      .animacion {
+        font-size: 11rem;
+        background: linear-gradient(#bacde0, #597fa8, #31469c);
+        animation: title 4s infinite linear;
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+      }
+      @keyframes title {
+        to {
+          background-position: 400% 0;
+        }
+      }
     }
     .row {
       display: flex;
