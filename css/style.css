@@ -32,10 +32,6 @@ header {
   padding: 0.5rem;
 }
 
-.subrayado {
-  text-decoration: none;
-}
-
 main {
   background-color: #597fa8;
 }
@@ -71,9 +67,6 @@ form {
   padding-bottom: 3rem;
 }
 
-i .footercolor {
-  color: #231f20;
-}
 footer {
   background-color: #bbcde1;
 }
@@ -85,10 +78,6 @@ i {
 /* TERMINA INDEX */
 
 /* EMPIEZA "EL HOTEL" */
-.nav-hotel {
-  border: #231f20;
-  text-align: center;
-}
 
 h3 {
   text-align: center;
@@ -133,39 +122,6 @@ h3 {
 
 /* TERMINAN HABITACIONES */
 
-/* EMPIEZA ENTORNO */
-.display1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-right: 2rem;
-}
-.display2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-right: 2rem;
-}
-.display3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-right: 5rem;
-}
-.parrafo3 {
-  border-style: solid;
-  text-align: center;
-}
-.parque {
-  align-self: center;
-}
-.bar {
-  align-self: center;
-}
-.cine {
-  align-self: center;
-}
-/* TERMINA ENTORNO */
 
 /* EMPIEZA CONSULTAS FRECUENTES */
 .parrafo4 {

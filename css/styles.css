@@ -1,0 +1,195 @@
+@media (min-width: 320px) {
+  .mapa-link {
+    width: 100%;
+    height: 360px;
+  }
+}
+@media (min-width: 600px) {
+  .mapa-link {
+    width: 75%;
+    height: 450px;
+  }
+}
+@media (min-width: 1024px) {
+  .mapa-link {
+    width: 50%;
+    height: 400px;
+  }
+}
+@media (min-width: 1200px) {
+  .mapa-link {
+    width: 35%;
+    height: 400px;
+  }
+}
+body {
+  font: "Libre Baskerville", serif;
+}
+body header {
+  background-color: #bbcde1;
+  padding: 0.5rem;
+}
+body header h1 {
+  color: #231f20;
+}
+body header .row {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10rem;
+}
+body main {
+  background-color: #597fa8;
+}
+body main section .img1 {
+  max-width: max-width, 100%;
+  width: width, 35rem;
+}
+body main section .img2 {
+  max-width: max-width, 100%;
+  width: width, 35rem;
+}
+body main section .form-index {
+  text-align: center;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  padding-bottom: 3rem;
+}
+body footer {
+  background-color: #bbcde1;
+}
+body footer i {
+  font-size: 3rem;
+  color: black;
+}
+
+/* termina index */
+/* empieza el hotel */
+body {
+  font: "Libre Baskerville", serif;
+}
+body header {
+  background-color: #bbcde1;
+}
+body main {
+  background-color: #597fa8;
+}
+body main h3 {
+  text-align: center;
+  align-content: right;
+  width: 20rem;
+  border-style: solid;
+}
+body main .texto1 {
+  border-style: solid;
+}
+body main .img3 {
+  max-width: max-width, 100%;
+}
+body main section .img4 {
+  max-width: max-width, 100%;
+  margin-top: 4rem;
+  padding-bottom: 2rem;
+}
+body main section .img5 {
+  max-width: max-width, 100%;
+  margin-top: 4rem;
+}
+body footer {
+  background-color: #bbcde1;
+}
+body footer i {
+  font-size: 3rem;
+  color: black;
+}
+
+/* termina el hotel */
+/* empieza las habitaciones */
+body {
+  font: "Libre Baskerville", serif;
+}
+body header {
+  background-color: #bbcde1;
+}
+body main {
+  background-color: #597fa8;
+}
+body main section .parrafo2 {
+  border-style: solid;
+  text-align: left;
+  align-content: left;
+  width: 20rem;
+  margin-top: 2rem;
+}
+body main section .habitaciones {
+  align-content: right;
+  text-align: center;
+  margin-top: 2rem;
+}
+body footer {
+  background-color: #bbcde1;
+}
+body footer i {
+  font-size: 3rem;
+  color: black;
+}
+
+/* termina habitaciones */
+/* empieza el entorno */
+body {
+  font: "Libre Baskerville", serif;
+}
+body header {
+  background-color: #bbcde1;
+}
+body main {
+  background-color: #597fa8;
+}
+body footer {
+  background-color: #bbcde1;
+}
+body footer i {
+  font-size: 3rem;
+  color: black;
+}
+
+/* termina entorno */
+/* empieza consultas frecuentes */
+body {
+  font: "Libre Baskerville", serif;
+}
+body header {
+  background-color: #bbcde1;
+}
+body main {
+  background-color: #597fa8;
+}
+body main section {
+  border-style: solid;
+  margin-bottom: 5rem;
+}
+body main section .parrafo4 {
+  text-align: center;
+}
+body main section {
+  border-style: solid;
+  margin-bottom: 5rem;
+}
+body main section .parrafo5 {
+  text-align: center;
+}
+body main section {
+  border-style: solid;
+  margin-bottom: 5rem;
+}
+body main section .parrafo6 {
+  text-align: center;
+}
+body footer {
+  background-color: #bbcde1;
+}
+body footer i {
+  font-size: 3rem;
+  color: black;
+}
+
+/*# sourceMappingURL=styles.css.map */
