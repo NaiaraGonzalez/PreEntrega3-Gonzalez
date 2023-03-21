@@ -1,0 +1,43 @@
+ /* empieza el hotel */
+body {
+    font: $body-font;
+    header {
+      background-color: $color-header-footer;
+    }
+    main {
+      background-color: $color-main;
+      h3 {
+        text-align: center;
+        align-content: right;
+        width: 20rem;
+        border-style: $border-style;
+      }
+      .texto1 {
+        border-style: $border-style;
+      }
+      .img3 {
+        max-width: $imgs;
+      }
+      section {
+        .img4 {
+          max-width: $imgs;
+          margin-top: 4rem;
+          padding-bottom: 2rem;
+        }
+      }
+      section {
+        .img5 {
+          max-width: $imgs;
+          margin-top: 4rem;
+        }
+      }
+    }
+    footer {
+      background-color: $color-header-footer;
+      i {
+        font-size: 3rem;
+        color: $color-i;
+      }
+    }
+  }
+  /* termina el hotel */

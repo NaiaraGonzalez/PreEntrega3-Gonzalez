@@ -50,21 +50,25 @@ body header .row {
   justify-content: space-between;
   margin-left: 10rem;
 }
+body header .nav-item {
+  align-items: center;
+  text-align: center;
+}
 body main {
   background-color: #597fa8;
 }
 body main section .img1 {
   max-width: max-width, 100%;
-  width: width, 35rem;
+  width: width, 30rem;
 }
 body main section .img2 {
   max-width: max-width, 100%;
-  width: width, 35rem;
+  width: width, 30rem;
 }
 body main section .form-index {
   text-align: center;
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
   padding-bottom: 3rem;
 }
 body footer {
@@ -134,7 +138,7 @@ body main section .parrafo2 {
   margin-top: 2rem;
 }
 body main section .habitaciones {
-  align-content: right;
+  align-content: flex-end;
   text-align: center;
   margin-top: 2rem;
 }
@@ -204,5 +208,7 @@ body footer i {
   font-size: 3rem;
   color: black;
 }
+
+/* termina consultas frecuentes */
 
 /*# sourceMappingURL=styles.css.map */

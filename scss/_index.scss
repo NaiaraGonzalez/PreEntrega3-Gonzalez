@@ -1,0 +1,66 @@
+body {
+  font: $body-font;
+
+  header {
+    background-color: $color-header-footer;
+    padding: 0.5rem;
+
+    h1 {
+      color: $color-h1;
+      .animacion {
+        font-size: 11rem;
+        background: linear-gradient(#bacde0, #597fa8, #31469c);
+        animation: title 4s infinite linear;
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+      }
+      @keyframes title {
+        to {
+          background-position: 400% 0;
+        }
+      }
+    }
+    .row {
+      display: flex;
+      justify-content: space-between;
+      margin-left: 10rem;
+    }
+    .nav-item {
+      align-items: center;
+      text-align: center;
+    }
+  }
+
+  main {
+    background-color: $color-main;
+    section {
+      .img1 {
+        max-width: $imgs;
+        width: $medidas-img;
+      }
+      .img2 {
+        max-width: $imgs;
+        width: $medidas-img;
+      }
+    }
+    section {
+      .form-index {
+        text-align: center;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        padding-bottom: 3rem;
+      }
+    }
+  }
+  footer {
+    background-color: $color-header-footer;
+
+    i {
+      font-size: 3rem;
+      color: $color-i;
+    }
+  }
+}
+
+/* termina index */

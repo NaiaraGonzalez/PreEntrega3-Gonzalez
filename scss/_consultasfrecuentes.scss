@@ -1,0 +1,40 @@
+/* empieza consultas frecuentes */
+
+body {
+    font: $body-font;
+    header {
+      background-color: $color-header-footer;
+    }
+    main {
+      background-color: $color-main;
+      section {
+        border-style: $border-style;
+        margin-bottom: 5rem;
+        .parrafo4 {
+          text-align: center;
+        }
+      }
+      section {
+        border-style: $border-style;
+        margin-bottom: 5rem;
+        .parrafo5 {
+          text-align: center;
+        }
+      }
+      section {
+        border-style: $border-style;
+        margin-bottom: 5rem;
+        .parrafo6 {
+          text-align: center;
+        }
+      }
+    }
+    footer {
+      background-color: $color-header-footer;
+      i {
+        font-size: 3rem;
+        color: $color-i;
+      }
+    }
+  }
+  /* termina consultas frecuentes */

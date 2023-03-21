@@ -1,0 +1,32 @@
+/* empieza las habitaciones */
+body {
+  font: $body-font;
+  header {
+    background-color: $color-header-footer;
+  }
+  main {
+    background-color: $color-main;
+    section {
+      .parrafo2 {
+        border-style: $border-style;
+        text-align: left;
+        align-content: left;
+        width: 20rem;
+        margin-top: 2rem;
+      }
+      .habitaciones {
+        align-content: flex-end;
+        text-align: center;
+        margin-top: 2rem;
+      }
+    }
+  }
+  footer {
+    background-color: $color-header-footer;
+    i {
+      font-size: 3rem;
+      color: $color-i;
+    }
+  }
+}
+/* termina habitaciones */

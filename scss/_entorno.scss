@@ -1,0 +1,18 @@
+/* empieza el entorno */
+body {
+    font: $body-font;
+    header {
+      background-color: $color-header-footer;
+    }
+    main {
+      background-color: $color-main;
+    }
+    footer {
+      background-color: $color-header-footer;
+      i {
+        font-size: 3rem;
+        color: $color-i;
+      }
+    }
+  }
+  /* termina entorno */ 
